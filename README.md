@@ -46,5 +46,5 @@ This project was created to:
 ## 🛠️ Installation Guide  
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/your-username/theme-toggle.git
+   git clone https://github.com/Heramb0x1/theme-toggle.git
    cd theme-toggle
