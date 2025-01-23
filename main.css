@@ -191,11 +191,11 @@ i .dark::view-transition-old(root) {
 
 .image-container {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    width: 100%; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     height: 100%;
-    margin: auto; 
+    margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -204,12 +204,20 @@ i .dark::view-transition-old(root) {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
-    width: 80%; 
+    width: 80%;
     height: auto;
     margin: 0 auto;
     display: block;
 }
 
+.navbar1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tags {
+    margin-right: 100px;
+}
 
 .main-content {
     font-family: "Overpass Mono", serif;
@@ -217,17 +225,17 @@ i .dark::view-transition-old(root) {
     padding-top: 60px;
     margin: auto;
     margin-left: 10px;
-    margin-right:10px;
+    margin-right: 10px;
 }
 
-.socials{
+.socials {
     text-decoration: none;
     color: rgb(123, 123, 123);
     padding-right: 20px;
     font-size: 20px;
 }
 
-.socials:hover{
+.socials:hover {
     color: crimson;
 }
 
@@ -283,7 +291,7 @@ i .dark::view-transition-old(root) {
     transition: background-color 0.3s, border-bottom-color 0.3s, transform 0.3s ease-in-out;
 }
 
-.main-asset{
+.main-asset {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -406,5 +414,3 @@ body.dark .icon-moon {
     white-space: nowrap;
     border: 0;
 }
-
-
